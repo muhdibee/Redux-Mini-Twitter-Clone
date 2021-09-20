@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { counterDecreament, counterIncreament } from '../actions/authedUser';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        Starter Code
-      </div>
+        <div>
+          <h1>Starter Code</h1>
+        </div>
     )
   }
 }
