@@ -1,10 +1,11 @@
-import { combineReducers } from 'redux';
-import authedUser from './authedUser';
-import tweets from './tweets';
+
+import { combineReducers } from 'redux'
+import authedUser from './authedUser'
 import users from './users'
+import tweets from './tweets'
 
-const rootReducer = combineReducers({
-    authedUser, tweets, users
+export default combineReducers({
+  authedUser,
+  users,
+  tweets
 })
-
-export default rootReducer;
