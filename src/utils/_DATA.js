@@ -204,13 +204,13 @@ let tweets = {
 
 export function _getUsers () {
   return new Promise((res, rej) => {
-    setTimeout(() => res({...users}), 1000)
+    setTimeout(() => res({...users}), 2000)
   })
 }
 
 export function _getTweets () {
   return new Promise((res, rej) => {
-    setTimeout(() => res({...tweets}), 1000)
+    setTimeout(() => res({...tweets}), 2000)
   })
 }
 
